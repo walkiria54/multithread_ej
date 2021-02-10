@@ -1,0 +1,85 @@
+/**
+ * 
+ */
+package alten.ejSpringHibernate.ejORM;
+
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+/**
+ * @author rocio.dedios
+ *
+ */
+@Entity
+@Table(name="curso")
+public class Curso {
+	@Id
+	@GeneratedValue (strategy=GenerationType.IDENTITY) 
+	int id;
+	@Column(name="fecha")
+	GregorianCalendar fecha;
+	@Column(name="descrip")
+	String descrip;
+	@ManyToOne(cascade={CascadeType.PERSIST, CascadeType.MERGE,CascadeType.DETACH,CascadeType.REFRESH})
+	@JoinColumn(name="alumnoId")
+	private Alumno alumno;
+	
+
+
+	//ctor
+	public Curso(GregorianCalendar gregorianCalendar, String descrip) {
+		super();
+		this.fecha = gregorianCalendar;
+		this.descrip = descrip;
+	}
+	
+	//x dfault
+		public Curso() {
+		super();
+	}
+	//gtters-setters
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public GregorianCalendar getFecha() {
+		return fecha;
+	}
+	public void setFecha(GregorianCalendar fecha) {
+		this.fecha = fecha;
+	}
+	public String getDescrip() {
+		return descrip;
+	}
+	public void setDescrip(String descrip) {
+		this.descrip = descrip;
+	}
+	public Alumno getAlumno() {
+		return alumno;
+	}
+
+	public void setAlumno(Alumno alumno) {
+		this.alumno = alumno;
+	}
+	
+
+	@Override
+	public String toString() {
+		return "Curso [id=" + id + ", fecha=" + fecha + ", descrip=" + descrip + ", alumno=" + alumno.toString() + "]";
+	}
+	
+	
+	
+}

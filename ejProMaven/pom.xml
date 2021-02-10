@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>alten</groupId>
+  <artifactId>ejProMaven</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ejemploProyectoMaven</name>
+
+
+<properties> 
+     <maven.compiler.source>1.8</maven.compiler.source> 
+     <maven.compiler.target>1.8</maven.compiler.target> 
+     <!-- variable para definir profile 
+     <env>entorno</env>-->
+    </properties>
+
+<dependencies>
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.3.2</version>
+    <scope>test</scope>
+    <exclusions>
+    <exclusion>
+    <groupId>org.apiguardian</groupId>
+      <artifactId>apiguardian-api</artifactId>
+      </exclusion>
+      </exclusions>
+</dependency>
+</dependencies>
+
+
+<!-- 	<build> -->
+<!-- 	<filters> -->
+<!-- 		<filter> -->
+<!-- 			src/main/resources/${env}.properties -->
+<!-- 		</filter> -->
+<!-- 	</filters> -->
+<!-- 	</build> -->
+
+    
+    </project>

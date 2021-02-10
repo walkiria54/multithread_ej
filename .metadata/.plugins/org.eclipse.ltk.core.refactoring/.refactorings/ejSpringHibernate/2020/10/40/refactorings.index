@@ -1,0 +1,15 @@
+1601550332473	Move compilation unit
+1601550353981	Rename package 'alten.ejSpringHibernate.ejemplo'
+1601551134581	Extract method 'muestraConsulta'
+1601562586116	Extract method 'obtenerTodosAlumnos'
+1601562684564	Extract method 'obtenerAlumnosMaria'
+1601562765767	Extract method 'obtenerAlumnosMariaYPepe'
+1601566434870	Rename type 'Principal'
+1601569382941	Rename type 'Principal'
+1601569412214	Copy compilation unit
+1601569776007	Copy compilation unit
+1601570396416	Rename type 'UpdateAlumno'
+1601636577025	Copy compilation unit
+1601637919225	Rename field 'direccion'
+1601637933204	Rename local variable 'direccion'
+1601638832616	Copy compilation unit

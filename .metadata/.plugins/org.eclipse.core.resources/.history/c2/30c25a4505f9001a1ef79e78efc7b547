@@ -1,0 +1,25 @@
+package com.alten.threadsSinc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrincipalSinc{
+	
+	public static void main(String[] args){
+
+		List<String> productos = new ArrayList<String>();
+		Productor p= new Productor (productos);
+		
+		//genero 3 hilos de tipo consumidor 
+		Thread c1= new Thread(new Consumidor(productos));
+		Thread c2= new Thread(new Consumidor(productos));
+		Thread c3= new Thread(new Consumidor(productos));
+		Thread c4= new Thread(new Consumidor(productos));
+		
+		c1.start();
+		c2.start();
+		c3.start();
+		c4.start();
+		
+	}
+}

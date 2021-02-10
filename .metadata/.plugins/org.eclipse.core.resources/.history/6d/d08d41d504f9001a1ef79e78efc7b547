@@ -1,0 +1,12 @@
+package com.alten.threadsSinc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrincipalSinc{
+	
+	public static void main(String[] args){
+
+		List<String> productos = new ArrayList<String>();
+	}
+}

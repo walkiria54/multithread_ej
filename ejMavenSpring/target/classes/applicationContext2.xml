@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans   
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context-3.1.xsd
+">
+
+<!-- inyeccion dependencia informe para la clase Director, Jefe, Secretario... -->
+<bean id="miInforme" class="ejMavenSpring.Informe"></bean>
+
+
+<!-- inyeccion depedencia informe para la clase Secretario -->
+<bean id="miSecretario" class="ejMavenSpring.Secretario" scope ="prototype">
+	<!-- configuracion de la dependencia de la clase Secretario con Informe setter-->
+	<property name="informeSecretario" ref="miInforme"></property>
+	<!-- configuracon de la dependencia para campos -->
+	<property name="tipoInforme" value="nominas"></property>
+</bean>
+
+
+
+</beans>

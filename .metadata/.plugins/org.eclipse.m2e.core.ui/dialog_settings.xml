@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="alten"/>
+			<item value="com.dg.dg59"/>
+		</list>
+		<list key="name">
+			<item value="ejSpringHibernate"/>
+			<item value="ejMavenSpringAOP3"/>
+			<item value="ejMavenSpringAOP2"/>
+			<item value="ejMavenSpringAOP"/>
+			<item value="ejMavenSpringAnota"/>
+			<item value="ejemploMavenSpring"/>
+		</list>
+		<list key="artifactId">
+			<item value="ejSpringHibernate"/>
+			<item value="ejMavenSpringAOP3"/>
+			<item value="ejMavenSpringAOP2"/>
+			<item value="ejMavenSpringAOP"/>
+			<item value="ejMavenSpringAnota"/>
+			<item value="ejMavenSpring"/>
+			<item value="semaforo"/>
+			<item value="threadDeadlock"/>
+			<item value="datamaz"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="1141" key="width"/>
+		<item value="534" key="x"/>
+		<item value="67" key="y"/>
+		<item value="838" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\rocio.dedios\workspace\ejProMainMaven\pom.xml"/>
+			<item value="C:\ROCIO\FORMACION_INICIO_DIAGNOSTICS\J2EE\SESION 1.1"/>
+			<item value="C:\ROCIO\FORMACION_INICIO_DIAGNOSTICS\J2EE\SESION 1.1\EjemploPruebaCarga\EjemploPruebaCarga"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\rocio.dedios\workspace\ejProMaven"/>
+			<item value="C:\Users\rocio.dedios\workspace\ejMavenSpringAOP2"/>
+			<item value="C:\Users\rocio.dedios\workspace\threadCallable\src\main\java\com\alten\threadCallable\PrincipalSinc.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

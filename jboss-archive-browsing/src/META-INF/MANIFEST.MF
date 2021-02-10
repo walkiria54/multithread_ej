@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: wburke
+Build-Jdk: 1.5.0_09
+Extension-Name: jboss-common-core
+Specification-Title: A set of commonly used classed classes
+Specification-Vendor: JBoss Inc.
+Implementation-Vendor: JBoss Inc.
+Implementation-Title: jboss-common-core
+Implementation-Version: 2.0.2.Alpha
+

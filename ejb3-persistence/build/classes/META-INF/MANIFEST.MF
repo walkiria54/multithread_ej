@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Created-By: 1.5.0_07-87 ("Apple Computer, Inc.")
+Built-By: hibernate.org
+Specification-Title: EJB 3.0
+Specification-Version: 3.0 Final Release
+Specification-Vendor: Sun Microsystems, Inc.
+Implementation-Title: EJB
+Implementation-Version: 3.0 Final Release March 14 2007
+Implementation-Vendor: hibernate.org
+

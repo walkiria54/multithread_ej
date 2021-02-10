@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.alten.threadPool&apos; to &apos;threadDeadlock/src/main/java/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;threadPool&apos;&#x0D;&#x0A;- Destination element: &apos;threadDeadlock/src/main/java/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;threadPool/src/main/java/com.alten.threadPool&apos;" description="Copy package" destination="=threadDeadlock/src\/main\/java&lt;" element1="/src\/main\/java&lt;com.alten.threadPool" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1600686367412" version="1.0"/>
+</session>

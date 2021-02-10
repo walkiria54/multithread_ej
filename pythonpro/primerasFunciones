@@ -1,0 +1,8 @@
+def funcionMensaje():
+	print("estamos imprimiendo desde una funcion esta frase")
+	
+
+#llamada a funcion 
+funcionMensaje()
+
+print("imprimiendo desde fuera de la funcion")
